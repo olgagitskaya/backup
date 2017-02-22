@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<catalog>
+    <film>
+        <newsItem title="Meet_Joe_Black" date="1998/11/14" additionalinfo="directed by Martin Brest."></newsItem>
+        <newsItem title="Meet_Joe_Black" date="1998/11/15" additionalinfo="1 mln USD profit."></newsItem>
+        <newsItem title="The_Lake_House" date="2006/06/16" additionalinfo="directed by Alejandro Agresti."></newsItem>
+        <newsItem title="Silence" date="2016/11/29" additionalinfo="directed by Martin Scorsese."></newsItem>
+    </film>
+    <book>
+        <newsItem title="Pride_and_Prejudice" date="1998/11/14" additionalinfo="written by Jane Austen."></newsItem>
+        <newsItem title="The_Martian" date="2014/02/11" additionalinfo="written by Andy Weir."></newsItem>
+        <newsItem title="Head_First_Java" date="2005/02/04" additionalinfo="written by Kathy Sierra and Bert Bates."></newsItem>
+    </book>
+    <disk>
+        <newsItem title="English_World" date="2009/09/01" additionalinfo="publishing house Macmillan."></newsItem>
+        <newsItem title="1C_Little English" date="2013/03/03" additionalinfo="publishing house 1C-Publishing"></newsItem>
+        <newsItem title="Russian_Language_with_the_Computer" date="2016/05/03" additionalinfo="publishing house 1C-Publishing"></newsItem>
+    </disk>
+</catalog>
