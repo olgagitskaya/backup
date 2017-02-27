@@ -10,6 +10,6 @@ import java.util.Map;
  * Created by Volha_Hitskaya on 1/30/2017.
  */
 public interface NewsItemDAO {
-    boolean addNewsItem(NewsItem newsItem);
+    boolean addNewsItem(NewsItem newsItem) throws DAOException;
     ArrayList<NewsItem> getNewsItemsByTitleAndDate(String title, String date)throws DAOException;
 }
