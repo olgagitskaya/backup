@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns="http://www.epam.com/menu"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.epam.com/menu Menu.xsd">
+
+    <category categoryName="холодные закуски">
+        <dish id="1">
+            <photo>Фото блюда</photo>
+            <title>Ассорти рыбное</title>
+            <description>Слабосоленая форель, семга</description>
+            <portion>100/20/15</portion>
+            <price></price>
+        </dish>
+        <dish id="2">
+            <photo>Фото блюда</photo>
+            <title>Тарталетки с красной икрой</title>
+            <description>Тарталетки с красной икрой</description>
+            <portion>60/50</portion>
+            <price></price>
+        </dish>
+        <dish id="3">
+            <photo>Фото блюда</photo>
+            <title>Закуска по-русски</title>
+            <description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</description>
+            <portion>70/50/2/10</portion>
+            <price></price>
+        </dish>
+    </category>
+    <category categoryName="горячие закуски">
+        <dish id="1">
+            <photo>Фото блюда</photo>
+            <title>Лобио с шампиньонами</title>
+            <description>Фасоль с шампиньонами и грецким орехом</description>
+            <portion>150/5</portion>
+            <price>105</price>
+        </dish>
+        <dish id="2">
+            <photo>Фото блюда</photo>
+            <title>Жульен</title>
+            <description>с курицей</description>
+            <portion>120/1</portion>
+            <price>145</price>
+        </dish>
+        <dish id="3">
+            <photo>Фото блюда</photo>
+            <title>Жульен</title>
+            <description>с грибами</description>
+            <portion>120/1</portion>
+            <price>155</price>
+        </dish>
+    </category>
+    <category categoryName="завтраки">
+        <dish id="1">
+            <photo>Фото блюда</photo>
+            <title>Глазунья</title>
+            <description>2 яйца (на выбор ветчина, сыр, помидоры)</description>
+            <portion>150</portion>
+            <price></price>
+        </dish>
+        <dish id="2">
+            <photo>Фото блюда</photo>
+            <title>Омлет</title>
+            <description></description>
+            <portion>100</portion>
+            <price></price>
+        </dish>
+        <dish id="3">
+            <photo>Фото блюда</photo>
+            <title>Блинчики с мясом</title>
+            <description>Жареные блинчики с мясом</description>
+            <portion>150</portion>
+            <price></price>
+        </dish>
+    </category>
+    <category categoryName="салаты"></category>
+    <category categoryName="супы"></category>
+    <category categoryName="рыбные блюда"></category>
+    <category categoryName="мясные блюда"></category>
+    <category categoryName="гарниры"></category>
+    <category categoryName="блюда на мангале"></category>
+    <category categoryName="от шеф-повара"></category>
+    <category categoryName="приложение"></category>
+    <category categoryName="десерт"></category>
+</menu>

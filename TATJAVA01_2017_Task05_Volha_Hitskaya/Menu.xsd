@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.epam.com/menu"
+            xmlns:tns="http://www.epam.com/menu"
+            elementFormDefault="qualified">
+
+    <xsd:element name="menu">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="category" type="tns:category" minOccurs="1" maxOccurs="12"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType  name="category">
+        <xsd:sequence>
+            <xsd:element name="dish" type="tns:dish" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name = "categoryName" type = "xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:simpleType name="categoryName">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="холодные закуски"/>
+            <xsd:enumeration value="горячие закуски"/>
+            <xsd:enumeration value="завтраки"/>
+            <xsd:enumeration value="салаты"/>
+            <xsd:enumeration value="супы"/>
+            <xsd:enumeration value="рыбные блюда"/>
+            <xsd:enumeration value="мясные блюда"/>
+            <xsd:enumeration value="гарниры"/>
+            <xsd:enumeration value="блюда на мангале"/>
+            <xsd:enumeration value="от шеф-повара"/>
+            <xsd:enumeration value="приложение"/>
+            <xsd:enumeration value="десерт"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="dish">
+        <xsd:sequence>
+            <xsd:element name="photo" type="xsd:string" />
+            <xsd:element name="title" type="xsd:string" />
+            <xsd:element name="description" type="xsd:string" />
+            <xsd:element name="portion" type="xsd:string" />
+            <xsd:element name="price" type="xsd:nonNegativeInteger" default="0"/>
+        </xsd:sequence>
+        <xsd:attribute name="id" type="xsd:positiveInteger" use="required"></xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
